@@ -1,0 +1,13 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: openshift-template-cm
+data:
+  GRAYLOG_ENABLED: "true"
+  GRAYLOG_HOST: "efp8.sm-soft.ru"
+  GRAYLOG_PORT: "12201"
+  GRAYLOG_LOG_LEVEL: "INFO"
+  LOG_LEVEL_ROOT: "INFO"
+  SENTRY_ENABLED: "true"
+  SENTRY_LOG_LEVEL: "WARN"
+  SENTRY_DSN: "http://8a3490fe2bdf4caea9c2eca5bf21ad61@185.204.3.132:9100/12"

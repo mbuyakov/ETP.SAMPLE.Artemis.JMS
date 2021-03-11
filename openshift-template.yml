@@ -1,0 +1,50 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: openshift-template
+  labels:
+    app: openshift-template
+    version: v1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: openshift-template
+      version: v1.0
+  template:
+    metadata:
+      labels:
+        app: openshift-template
+        version: v1.0
+    spec:
+      securityContext:
+        runAsUser: 1001
+      containers:
+        - name: openshift-template
+          image: cd-registry.cls.sm-soft.ru/etp/efp-dkn-054801:1.0-14
+          envFrom:
+            - configMapRef:
+                name: openshift-template-cm
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+          livenessProbe:
+            httpGet:
+              path: /actuator/health
+              port: 8080
+              scheme: HTTP
+            initialDelaySeconds: 30
+          readinessProbe:
+            httpGet:
+              path: /actuator/health
+              port: 8080
+              scheme: HTTP
+            initialDelaySeconds: 30
+          resources:
+            requests:
+              memory: 400Mi
+            limits:
+              memory: 600Mi
+      imagePullSecrets:
+        - name: regcred
