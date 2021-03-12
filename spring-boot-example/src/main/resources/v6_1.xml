@@ -1,0 +1,327 @@
+<out:CoordinateMessage xmlns:out="http://asguf.mos.ru/rkis_gu/coordinate/v6_1/" xmlns:tns="urn://ums.efp.mos.ru/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <out:CoordinateDataMessage>
+        <out:Service>
+            <out:RegNum>1900000295</out:RegNum>
+            <out:RegDate>2019-05-16T10:33:29.562</out:RegDate>
+            <out:ServiceNumber>8899-9300120-006703-00000295/19</out:ServiceNumber>
+            <out:ServicePrice xsi:nil="true"/>
+            <out:PrepareTargetDate xsi:nil="true"/>
+            <out:OutputTargetDate xsi:nil="true"/>
+            <out:Responsible>
+                <out:LastName>оператор Mos.ru</out:LastName>
+                <out:FirstName>оператор Mos.ru</out:FirstName>
+                <out:MiddleName>оператор Mos.ru</out:MiddleName>
+                <out:JobTitle>оператор Портала</out:JobTitle>
+                <out:Phone>+7 (495) 539-55-55</out:Phone>
+                <out:Email>cpgu@mos.ru</out:Email>
+            </out:Responsible>
+            <out:Department>
+                <out:Name>Департамент информационных технологий города Москвы</out:Name>
+                <out:Code>8899</out:Code>
+                <out:Inn>7710878000</out:Inn>
+                <out:Ogrn>1107746943347</out:Ogrn>
+                <out:RegDate xsi:nil="true"/>
+                <out:SystemCode xsi:nil="true"/>
+            </out:Department>
+            <out:CreatedByDepartment>
+                <out:Name>Департамент информационных технологий города Москвы</out:Name>
+                <out:Code>2043</out:Code>
+                <out:Inn>7710878000</out:Inn>
+                <out:Ogrn>1107746943347</out:Ogrn>
+                <out:RegDate xsi:nil="true"/>
+                <out:SystemCode>1</out:SystemCode>
+            </out:CreatedByDepartment>
+            <out:OutputKind xsi:nil="true"/>
+        </out:Service>
+        <out:SignService Id="8899-9300120-006703-00000295/19">
+            <out:ServiceType>
+                <out:Code>006703</out:Code>
+                <out:Name>Присвоение (продление) льготного статуса многодетной семьи города Москвы.</out:Name>
+            </out:ServiceType>
+            <out:Contacts>
+                <out:BaseDeclarant xsi:type="out:RequestContact" Id="e7f4bc2a-77ac-11e9-bc82-94fbb7960000">
+                    <out:Type>Declarant</out:Type>
+                    <out:Documents>
+                        <out:ServiceDocument>
+                            <out:DocKind>
+                                <out:Code>20001</out:Code>
+                                <out:Name>Документ, удостоверяющий личность </out:Name>
+                            </out:DocKind>
+                            <out:DocSerie>4504</out:DocSerie>
+                            <out:DocNumber>365418</out:DocNumber>
+                            <out:DocDate>2018-12-08T00:00:00</out:DocDate>
+                            <out:WhoSign>Тестовый ОВД</out:WhoSign>
+                            <out:DivisionCode>666-132</out:DivisionCode>
+                        </out:ServiceDocument>
+                    </out:Documents>
+                    <out:LastName>Тестованзшд</out:LastName>
+                    <out:FirstName>Тестанзше</out:FirstName>
+                    <out:MiddleName>Тестовичанзшж</out:MiddleName>
+                    <out:Gender>Male</out:Gender>
+                    <out:BirthDate>1980-02-05</out:BirthDate>
+                    <out:Snils>00009904392</out:Snils>
+                    <out:RegAddress>
+                        <out:Street>пр-кт Мира</out:Street>
+                        <out:House>111</out:House>
+                        <out:BTIBuildingCode>2301470</out:BTIBuildingCode>
+                    </out:RegAddress>
+                    <out:MobilePhone>9500142048</out:MobilePhone>
+                    <out:EMail>ttt@tdsat.rrr</out:EMail>
+                    <out:CitizenshipType>RF</out:CitizenshipType>
+                </out:BaseDeclarant>
+                <out:BaseDeclarant xsi:type="out:RequestContact" Id="e7f4cb20-77ac-11e9-bc82-94fbb7960000">
+                    <out:Type>Child</out:Type>
+                    <out:Documents>
+                        <out:ServiceDocument>
+                            <out:DocKind>
+                                <out:Code>22</out:Code>
+                                <out:Name>Свидетельство о рождении РФ</out:Name>
+                            </out:DocKind>
+                            <out:DocSerie>V-МЮ</out:DocSerie>
+                            <out:DocNumber>999919</out:DocNumber>
+                            <out:DocDate>2018-06-11T00:00:00</out:DocDate>
+                            <out:WhoSign>Тестовый ЗАГС</out:WhoSign>
+                        </out:ServiceDocument>
+                        <out:ServiceDocument>
+                            <out:DocKind>
+                                <out:Code>80</out:Code>
+                                <out:Name>Свидетельство о смерти 2</out:Name>
+                            </out:DocKind>
+                        </out:ServiceDocument>
+                    </out:Documents>
+                    <out:LastName>Казадоев</out:LastName>
+                    <out:FirstName>Иван</out:FirstName>
+                    <out:MiddleName>Васильевич</out:MiddleName>
+                    <out:Gender>Male</out:Gender>
+                    <out:BirthDate>2018-06-01</out:BirthDate>
+                    <out:RegAddress>
+                        <out:Street>пр-кт Мира</out:Street>
+                        <out:House>111</out:House>
+                        <out:BTIBuildingCode>2301470</out:BTIBuildingCode>
+                    </out:RegAddress>
+                    <out:CitizenshipType>RF</out:CitizenshipType>
+                </out:BaseDeclarant>
+                <out:BaseDeclarant xsi:type="out:RequestContact" Id="e7f4dae8-77ac-11e9-bc82-94fbb7960000">
+                    <out:Type>Child</out:Type>
+                    <out:Documents>
+                        <out:ServiceDocument>
+                            <out:DocKind>
+                                <out:Code>20018</out:Code>
+                                <out:Name>Свидетельство о рождении иностранного образца</out:Name>
+                            </out:DocKind>
+                            <out:DocNumber>666 999921</out:DocNumber>
+                            <out:DocDate>2017-09-12T00:00:00</out:DocDate>
+                            <out:WhoSign>Тестовый ЗАГС</out:WhoSign>
+                        </out:ServiceDocument>
+                    </out:Documents>
+                    <out:LastName>Казадоев</out:LastName>
+                    <out:FirstName>Максим</out:FirstName>
+                    <out:MiddleName>Васильевич</out:MiddleName>
+                    <out:Gender>Male</out:Gender>
+                    <out:BirthDate>2017-09-02</out:BirthDate>
+                    <out:RegAddress>
+                        <out:Street>пр-кт Мира</out:Street>
+                        <out:House>111</out:House>
+                        <out:BTIBuildingCode>2301470</out:BTIBuildingCode>
+                    </out:RegAddress>
+                    <out:CitizenshipType>RF</out:CitizenshipType>
+                </out:BaseDeclarant>
+                <out:BaseDeclarant xsi:type="out:RequestContact" Id="e7f4e704-77ac-11e9-bc82-94fbb7960000">
+                    <out:Type>Child</out:Type>
+                    <out:Documents>
+                        <out:ServiceDocument>
+                            <out:DocKind>
+                                <out:Code>22</out:Code>
+                                <out:Name>Свидетельство о рождении РФ</out:Name>
+                            </out:DocKind>
+                            <out:DocSerie>V-МЮ</out:DocSerie>
+                            <out:DocNumber>999920</out:DocNumber>
+                            <out:DocDate>2017-09-11T00:00:00</out:DocDate>
+                            <out:WhoSign>Тестовый ЗАГС</out:WhoSign>
+                        </out:ServiceDocument>
+                    </out:Documents>
+                    <out:LastName>Казадоева</out:LastName>
+                    <out:FirstName>Изольда</out:FirstName>
+                    <out:MiddleName>Васильевна</out:MiddleName>
+                    <out:Gender>Female</out:Gender>
+                    <out:BirthDate>2017-09-01</out:BirthDate>
+                    <out:RegAddress>
+                        <out:Street>пр-кт Мира</out:Street>
+                        <out:House>111</out:House>
+                        <out:BTIBuildingCode>2301470</out:BTIBuildingCode>
+                    </out:RegAddress>
+                    <out:CitizenshipType>RF</out:CitizenshipType>
+                </out:BaseDeclarant>
+            </out:Contacts>
+            <out:CustomAttributes>
+                <Message006703 xmlns:io2="urn://ums.efp.mos.ru/1.0.0" xmlns:io="urn://mos.etp.pcvz.service/1.0.0" xmlns="urn://ums.efp.mos.ru/1.0.0">
+                    <MultiChildFamilyStatus>1</MultiChildFamilyStatus>
+                    <Declarant>
+                        <Contact>
+                            <Id>e7f4bc2a-77ac-11e9-bc82-94fbb7960000</Id>
+                            <LastName>Тестованзшд</LastName>
+                            <FirstName>Тестанзше</FirstName>
+                            <MiddleName>Тестовичанзшж</MiddleName>
+                            <Gender>Male</Gender>
+                            <BirthDate>1980-02-05T00:00:00</BirthDate>
+                            <RegAddress>
+                                <ManualInput>0</ManualInput>
+                                <Locality>Москва</Locality>
+                                <District>Северо-Восточный АО</District>
+                                <Region>муниципальный округ Останкинский</Region>
+                                <Street>пр-кт Мира</Street>
+                                <House>111</House>
+                                <OMKDistrictCode>0310</OMKDistrictCode>
+                                <OMKRegionCode>0300</OMKRegionCode>
+                                <OMKStreetCode>015820</OMKStreetCode>
+                                <BTIBuildingCode>2301470</BTIBuildingCode>
+                                <AddressInEIRC>1</AddressInEIRC>
+                            </RegAddress>
+                            <CitizenshipType>RF</CitizenshipType>
+                            <Snils>00009904392</Snils>
+                            <MobilePhone>9500142048</MobilePhone>
+                            <EMail>ttt@tdsat.rrr</EMail>
+                        </Contact>
+                        <IDdocument>
+                            <DocCode>20001</DocCode>
+                            <DocType>Документ, удостоверяющий личность </DocType>
+                            <DocSerie>4504</DocSerie>
+                            <DocNumber>365418</DocNumber>
+                            <DocDate>2018-12-08T00:00:00</DocDate>
+                            <WhoSign>Тестовый ОВД</WhoSign>
+                            <DivisionCode>666-132</DivisionCode>
+                            <BirthPlace>Москва</BirthPlace>
+                        </IDdocument>
+                    </Declarant>
+                    <Children>
+                        <Child>
+                            <Contact>
+                                <Id>e7f4cb20-77ac-11e9-bc82-94fbb7960000</Id>
+                                <LastName>Казадоев</LastName>
+                                <FirstName>Иван</FirstName>
+                                <MiddleName>Васильевич</MiddleName>
+                                <Gender>Male</Gender>
+                                <BirthDate>2018-06-01T00:00:00</BirthDate>
+                                <RegAddress>
+                                    <ManualInput>0</ManualInput>
+                                    <Locality>Москва</Locality>
+                                    <District>Северо-Восточный АО</District>
+                                    <Region>муниципальный округ Останкинский</Region>
+                                    <Street>пр-кт Мира</Street>
+                                    <House>111</House>
+                                    <OMKDistrictCode>0310</OMKDistrictCode>
+                                    <OMKRegionCode>0300</OMKRegionCode>
+                                    <OMKStreetCode>015820</OMKStreetCode>
+                                    <BTIBuildingCode>2301470</BTIBuildingCode>
+                                    <AddressInEIRC>1</AddressInEIRC>
+                                </RegAddress>
+                                <CitizenshipType>RF</CitizenshipType>
+                            </Contact>
+                            <BirthCert>
+                                <DocCode>22</DocCode>
+                                <DocType>Свидетельство о рождении РФ</DocType>
+                                <DocSerie>V-МЮ</DocSerie>
+                                <DocNumber>999919</DocNumber>
+                                <DocDate>2018-06-11T00:00:00</DocDate>
+                                <WhoSign>Тестовый ЗАГС</WhoSign>
+                            </BirthCert>
+                            <Parent>
+                                <Id>e7f4d5de-77ac-11e9-bc82-94fbb7960000</Id>
+                                <DeathCert>
+                                    <ExtraParentInfo>второй родитель ребенка умер</ExtraParentInfo>
+                                    <DeathCert>
+                                        <DocCode>80</DocCode>
+                                        <DocType>Свидетельство о смерти 2</DocType>
+                                        <LastName>тест</LastName>
+                                        <FirstName>тест</FirstName>
+                                        <MiddleName>тестовоеотчество</MiddleName>
+                                        <Date1 xsi:nil="1"/>
+                                        <Date2 xsi:nil="1"/>
+                                    </DeathCert>
+                                </DeathCert>
+                            </Parent>
+                            <BornInMarried>0</BornInMarried>
+                        </Child>
+                        <Child>
+                            <Contact>
+                                <Id>e7f4dae8-77ac-11e9-bc82-94fbb7960000</Id>
+                                <LastName>Казадоев</LastName>
+                                <FirstName>Максим</FirstName>
+                                <MiddleName>Васильевич</MiddleName>
+                                <Gender>Male</Gender>
+                                <BirthDate>2017-09-02T00:00:00</BirthDate>
+                                <RegAddress>
+                                    <ManualInput>0</ManualInput>
+                                    <Locality>Москва</Locality>
+                                    <District>Северо-Восточный АО</District>
+                                    <Region>муниципальный округ Останкинский</Region>
+                                    <Street>пр-кт Мира</Street>
+                                    <House>111</House>
+                                    <OMKDistrictCode>0310</OMKDistrictCode>
+                                    <OMKRegionCode>0300</OMKRegionCode>
+                                    <OMKStreetCode>015820</OMKStreetCode>
+                                    <BTIBuildingCode>2301470</BTIBuildingCode>
+                                    <AddressInEIRC>1</AddressInEIRC>
+                                </RegAddress>
+                                <CitizenshipType>RF</CitizenshipType>
+                            </Contact>
+                            <BirthCert>
+                                <DocCode>20018</DocCode>
+                                <DocType>Свидетельство о рождении иностранного образца</DocType>
+                                <DocNumber>666 999921</DocNumber>
+                                <DocDate>2017-09-12T00:00:00</DocDate>
+                                <WhoSign>Тестовый ЗАГС</WhoSign>
+                            </BirthCert>
+                            <Parent>
+                                <Id>e7f4e312-77ac-11e9-bc82-94fbb7960000</Id>
+                                <SingleParent>
+                                    <ExtraParentInfo>ребенок одинокой матери (отца)</ExtraParentInfo>
+                                </SingleParent>
+                            </Parent>
+                            <BornInMarried>0</BornInMarried>
+                        </Child>
+                        <Child>
+                            <Contact>
+                                <Id>e7f4e704-77ac-11e9-bc82-94fbb7960000</Id>
+                                <LastName>Казадоева</LastName>
+                                <FirstName>Изольда</FirstName>
+                                <MiddleName>Васильевна</MiddleName>
+                                <Gender>Female</Gender>
+                                <BirthDate>2017-09-01T00:00:00</BirthDate>
+                                <RegAddress>
+                                    <ManualInput>0</ManualInput>
+                                    <Locality>Москва</Locality>
+                                    <District>Северо-Восточный АО</District>
+                                    <Region>муниципальный округ Останкинский</Region>
+                                    <Street>пр-кт Мира</Street>
+                                    <House>111</House>
+                                    <OMKDistrictCode>0310</OMKDistrictCode>
+                                    <OMKRegionCode>0300</OMKRegionCode>
+                                    <OMKStreetCode>015820</OMKStreetCode>
+                                    <BTIBuildingCode>2301470</BTIBuildingCode>
+                                    <AddressInEIRC>1</AddressInEIRC>
+                                </RegAddress>
+                                <CitizenshipType>RF</CitizenshipType>
+                            </Contact>
+                            <BirthCert>
+                                <DocCode>22</DocCode>
+                                <DocType>Свидетельство о рождении РФ</DocType>
+                                <DocSerie>V-МЮ</DocSerie>
+                                <DocNumber>999920</DocNumber>
+                                <DocDate>2017-09-11T00:00:00</DocDate>
+                                <WhoSign>Тестовый ЗАГС</WhoSign>
+                            </BirthCert>
+                            <Parent>
+                                <Id>e7f4ee98-77ac-11e9-bc82-94fbb7960000</Id>
+                                <SingleParent>
+                                    <ExtraParentInfo>ребенок одинокой матери (отца)</ExtraParentInfo>
+                                </SingleParent>
+                            </Parent>
+                            <BornInMarried>0</BornInMarried>
+                        </Child>
+                    </Children>
+                </Message006703>
+            </out:CustomAttributes>
+        </out:SignService>
+    </out:CoordinateDataMessage>
+</out:CoordinateMessage>
